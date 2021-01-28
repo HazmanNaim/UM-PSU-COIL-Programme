@@ -50,7 +50,7 @@ print("The Gradient of the graph is: ", m , "  (Gradient of the regression line)
 print("The Y-Intercept of the graph is: ", b , "  (Intercept of the regression line)")
 print("----------------------------------------------")
 '''
-9) To show the plot
+7) To show the plot
 '''
 #These two are important
 mpl.legend()
