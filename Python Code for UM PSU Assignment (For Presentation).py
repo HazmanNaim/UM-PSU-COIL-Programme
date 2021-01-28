@@ -1,11 +1,10 @@
 '''
 LEAST-SQUARES FITTING
 '''
+#import necessary packages/libraries
 import matplotlib.pyplot as mpl
 import pandas as pd
 from scipy.stats import linregress
-#import necessary packages/libraries
-
 '''
 1) READ THE DATA FROM EXCEL
 '''
@@ -50,12 +49,7 @@ print("The Gradient of the graph is: ", m , "  (Gradient of the regression line)
 print("The Y-Intercept of the graph is: ", b , "  (Intercept of the regression line)")
 print("----------------------------------------------")
 '''
-7) Export the Plot in png/jpeg format
-'''
-# Save the graph in the png format in an external file.
-mpl.savefig("Linear Regression 1.png")
-'''
-8) To show the plot
+9) To show the plot
 '''
 #These two are important
 mpl.legend()
