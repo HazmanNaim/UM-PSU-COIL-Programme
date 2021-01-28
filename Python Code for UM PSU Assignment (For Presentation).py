@@ -10,7 +10,8 @@ from scipy.stats import linregress
 '''
 #Instruct 'Panda' to read the data from external file
 #In this case, the data is written in the excel sheet
-#Write the name of the file, in this case, the name of the file is 'Linear Regression Data.xlsx'
+#Write the name of the file,
+#in this case, the name of the file is 'Linear Regression Data.xlsx'
 dataframe = pd.read_excel('Linear Regression Data.xlsx')
 
 #The Data must be assigned to its corresponding X and Y variable
@@ -44,7 +45,7 @@ mpl.axhline(0,color='Black')
 6) Print the information/result from the linear regression 
 '''
 print("-------------Basic Information(s)-------------")
-print("The R-squared value is: ", lslinear.rvalue**2 , "  (How close the data are to the fitted regression line)")
+print("The R-squared value is: ", lslinear.rvalue**2 , "  (How close the data are)")
 print("The Gradient of the graph is: ", m , "  (Gradient of the regression line)")
 print("The Y-Intercept of the graph is: ", b , "  (Intercept of the regression line)")
 print("----------------------------------------------")
